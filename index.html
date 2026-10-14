@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vimalkanth | Data Science Portfolio</title>
+
+    <meta
+        name="description"
+        content="Explore VIMALKANTH's Data Science portfolio, technical skills, projects, education, and achievements."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PARTICLE BACKGROUND -->
+    <canvas id="particles"></canvas>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">VIMALKANTH S<span></span></a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            ☾
+        </button>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="student-badge">
+                    <span class="status-dot"></span>
+                    B.Tech Data Science Student
+                </div>
+
+                <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm
+                    <span class="gradient-text">VIMALKANTH S</span>
+                </h1>
+
+                <h2 class="role-heading">
+                    I'm a <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am a Computer Science student specializing in Data Science.
+                    I enjoy exploring Python, AI/ML, data analytics, and web
+                    development. My goal is to transform ideas and data into
+                    meaningful solutions through continuous learning and
+                    practical projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Projects <span>→</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <span class="stat-icon">🎓</span>
+                        <div>
+                            <h3>Data Science</h3>
+                            <p>My Degree</p>
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-icon">⌘</span>
+                        <div>
+                            <h3>Programming</h3>
+                            <p>Python & Java</p>
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-icon">▥</span>
+                        <div>
+                            <h3>AI / ML</h3>
+                            <p>Learning Focus</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- PROFILE CARD -->
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="profile-card">
+
+                    <div class="profile-image-container">
+                        <img
+    src="assets/images/profile.png"
+    alt="VIMALKANTH S"
+    class="profile-image"
+>
+                    </div>
+
+                    <div class="profile-card-info">
+                        <h2>VIMALKANTH S</h2>
+                        <p>Aspiring Data Scientist</p>
+
+                        <div class="profile-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="floating-badge badge-left">
+                    <span>✳</span>
+                    <p>Data<br>Science</p>
+                </div>
+
+                <div class="floating-badge badge-right">
+                    <span>▥</span>
+                    <p>AI / ML</p>
+                </div>
+
+            </div>
+
+            <!-- WAVE DIVIDER -->
+            <div class="wave-divider">
+                <svg viewBox="0 0 1440 150"
+                     preserveAspectRatio="none"
+                     aria-hidden="true">
+
+                    <defs>
+                        <linearGradient id="wave-gradient" x1="0" y1="0" x2="1" y2="0">
+                            <stop offset="0%" stop-color="#00e5ff"/>
+                            <stop offset="50%" stop-color="#7357ff"/>
+                            <stop offset="100%" stop-color="#00e5ff"/>
+                        </linearGradient>
+                    </defs>
+
+                    <path
+                        class="wave wave-back"
+                        d="M0,65 C180,150 250,5 430,70 S700,140 900,60 S1200,5 1440,75"
+                    />
+
+                    <path
+                        class="wave wave-front"
+                        d="M0,80 C180,10 280,145 470,85 S750,10 940,80 S1250,135 1440,45"
+                    />
+
+                    <path
+                        class="wave wave-fill"
+                        d="M0,80 C180,10 280,145 470,85 S750,10 940,80 S1250,135 1440,45 L1440,150 L0,150 Z"
+                    />
+                </svg>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-visual reveal">
+                    <div class="monogram">
+                        <span>VS</span>
+                    </div>
+
+                    <p class="monogram-caption">
+                        LEARN · BUILD · INNOVATE
+                    </p>
+                </div>
+
+                <div class="about-content reveal">
+
+                    <p>
+                        I am VIMALKANTH S, a B.Tech student specializing
+                        in Data Science at Jain University.
+                    </p>
+
+                    <p>
+                        I am interested in programming, data analytics,
+                        machine learning, and building useful software
+                        applications. I believe in continuous learning,
+                        practical experimentation, and solving problems
+                        through technology.
+                    </p>
+
+                    <a href="#skills" class="btn btn-outline">
+                        Explore My Skills →
+                    </a>
+
+                </div>
+
+                <div class="about-facts reveal">
+
+                    <div class="fact">
+                        <span class="fact-icon">🎓</span>
+                        <div>
+                            <h3>Education</h3>
+                            <p>B.Tech Data Science</p>
+                        </div>
+                    </div>
+
+                    <div class="fact">
+                        <span class="fact-icon">🎯</span>
+                        <div>
+                            <h3>Career Goal</h3>
+                            <p>Data Scientist</p>
+                        </div>
+                    </div>
+
+                    <div class="fact">
+                        <span class="fact-icon">💻</span>
+                        <div>
+                            <h3>Interests</h3>
+                            <p>Technology & Innovation</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="wave-divider section-wave">
+                <svg viewBox="0 0 1440 150"
+                     preserveAspectRatio="none"
+                     aria-hidden="true">
+
+                    <path
+                        class="wave wave-back"
+                        d="M0,80 C180,10 280,145 470,85 S750,10 940,80 S1250,135 1440,45"
+                    />
+
+                    <path
+                        class="wave wave-front"
+                        d="M0,65 C180,150 250,5 430,70 S700,140 900,60 S1200,5 1440,75"
+                    />
+                </svg>
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+                <h2>Skills & <span class="gradient-text">Technologies</span></h2>
+
+                <p>
+                    Technologies and concepts I am learning and applying
+                    through coursework, experimentation, and projects.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol python-symbol">Py</span>
+                    <h3>Python</h3>
+                    <p>Programming</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol java-symbol">J</span>
+                    <h3>Java</h3>
+                    <p>Programming</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol sql-symbol">▤</span>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol html-symbol">5</span>
+                    <h3>HTML</h3>
+                    <p>Web Structure</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol css-symbol">3</span>
+                    <h3>CSS</h3>
+                    <p>Web Styling</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol js-symbol">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol ai-symbol">AI</span>
+                    <h3>Machine Learning</h3>
+                    <p>Learning & Practice</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span class="skill-symbol data-symbol">▥</span>
+                    <h3>Data Analytics</h3>
+                    <p>Data Exploration</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT I'M BUILDING</p>
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+
+                <p>
+                    A selection of academic and personal projects.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">📊</div>
+
+                    <p class="project-category">DATA SCIENCE</p>
+
+                    <h3>Data Analytics Project</h3>
+
+                    <p>
+                        A data-focused project exploring datasets,
+                        preprocessing, analysis, and visual insights.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Visualization</span>
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        Discuss Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">🤖</div>
+
+                    <p class="project-category">MACHINE LEARNING</p>
+
+                    <h3>ML Classification</h3>
+
+                    <p>
+                        A machine learning project focused on preparing
+                        data, training a model, and evaluating predictions.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        Discuss Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">🌐</div>
+
+                    <p class="project-category">WEB DEVELOPMENT</p>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive personal website presenting my
+                        skills, projects, educational background, and
+                        professional interests.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        Discuss Project →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section education-section" id="education">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">MY LEARNING JOURNEY</p>
+                <h2>Education & <span class="gradient-text">Growth</span></h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <p class="project-category">UNDERGRADUATE</p>
+
+                        <h3>B.Tech in Data Science</h3>
+
+                        <p class="timeline-place">
+                            Jain University
+                        </p>
+
+                        <p>
+                            Learning programming, data structures,
+                            databases, analytics, and machine learning
+                            concepts.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <p class="project-category">CONTINUOUS LEARNING</p>
+
+                        <h3>Technical Skill Development</h3>
+
+                        <p>
+                            Practicing programming, building projects,
+                            exploring new technologies, and preparing
+                            for software and data-related roles.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+
+                <p>
+                    Have an opportunity, project idea, or collaboration
+                    in mind? I'd be happy to connect.
+                </p>
+            </div>
+
+            <div class="contact-card reveal">
+
+                <div class="contact-info">
+
+                    <h3>Let's build something meaningful.</h3>
+
+                    <p>
+                        I am interested in learning, collaboration,
+                        internships, and opportunities to apply my
+                        technical skills.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span>✉</span>
+                        <p>Use the contact form to reach out.</p>
+                    </div>
+
+                </div>
+
+                <form class="contact-form" id="contact-form">
+
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="email">Your Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Validate Message →
+                    </button>
+
+                    <p id="form-status" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">VIMALKANTH<span></span></a>
+
+        <p>
+            Designed with curiosity, creativity, and code.
+        </p>
+
+        <p>
+            © <span id="current-year"></span> VIMALKANTH
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
